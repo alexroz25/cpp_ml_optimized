@@ -12,7 +12,7 @@ There is for sure some more room for improvement, but here's a list of some of t
 - Revisited the backpropagation algorithm and resolved issues with vanishing/exploding gradients
 - Implemented leaky ReLU activation layers
 
-These improvements resulted in a 90% speed-up in my testing. I also saw a massive improvement in the maximum learning rate before the model breaks down.
+These improvements resulted in a 90% speed-up in my testing. I also saw a massive improvement in the maximum learning rate before the model breaks down. Some future improvements I could work on include using a computational graph or trying to make a Convolutional Neural Network.
 
 ## Instructions
 
