@@ -20,9 +20,9 @@ These improvements resulted in a 90% speed-up in my testing. I also saw a massiv
 2. Download mnist_train.csv and mnist_test.csv from the MNIST dataset source below. Append mnist_test.csv to mnist_train.csv (or just edit main.cpp to create a train/test split within mnist_train.csv).
 3. Configure parameters at the top of main.cpp; hyperparameters in Matrix.h and Network.h.
 4. Run main.cpp with c++17 and -fopenmp using input redirection
-  - I used the following for compilation in VSCode:
-  - g++ -std=c++17 -fopenmp -lpthread -O3 -o main main.cpp Matrix.h Network.h
-  - ./main < mnist_train_test.csv
+    - I used the following for compilation in VSCode:
+    - g++ -std=c++17 -fopenmp -lpthread -O3 -o main main.cpp Matrix.h Network.h
+    - ./main < mnist_train_test.csv
 
 ## MNIST dataset source: 
 
